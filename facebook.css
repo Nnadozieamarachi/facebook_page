@@ -1,0 +1,86 @@
+img{
+    width: 300px;
+}
+h2{
+    text-align:justify;
+    font-size: 24px;
+    line-height: 28px;
+    width: auto;
+}
+.box{
+    /*border: 2px solid blue;*/
+    padding: 20px;
+    border-radius: 6px;
+    width: 350px;
+    height: 300px;
+    float: right;
+    display: block;
+    align-items:flex-end;
+    background-color: white;
+    box-shadow:  5px 5px 5px 5px;
+    color: rgb(197, 202, 202);
+    
+}
+.create-page p{
+    float: right;
+    position: relative;
+    top: 350px;
+    right: 500px;
+}
+body{
+    background-color:rgb(240, 242, 245);
+}
+.email-input-wrapper input{
+    width: 320px;
+    height: 45px;
+    margin-top: 16px;
+    border-color: none;
+    border-radius: 5px;
+}
+.password input{
+    width: 320px;
+    height: 45px;
+    margin-top: 16px;
+    border-radius: 5px;
+}
+
+.log-in{
+    /*text-decoration: aliceblue;*/
+    width: 320px;
+    height: 45px;
+    background-color: #1877f2;
+    margin-top: 16px;
+    border-color: none;
+    border-radius: 5px;
+    font-style: bold;
+    
+}
+.forgotten-password{
+    text-align: center;
+    margin-top: 16px;
+}
+.create-new-account{
+    background-color:rgb(51, 189, 51);
+    font-family: inherit;
+    padding-top: 6px;
+    display: block;
+    margin-top: 16px;
+    height: 45px;
+    width: 160px;
+    position: absolute;
+    right:30%;
+    border-radius: 5px;
+    border-color: none;
+    font-style: bold;
+}
+.line{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    margin-top: 16px;
+}
+.columns{
+    display: flex;
+    gap: 8rem;
+    padding-top: 100px;
+    padding-left: 200px;
+}
